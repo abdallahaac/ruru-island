@@ -10,7 +10,10 @@
 			<div
 				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
-				<span class="text-white text-4xl font-semibold">Lorem</span>
+				<span class="text-white text-5xl font-semibold">Lorem</span>
+				<span class="text-white text-6xl font-semibold blinking text-red-400">
+					_</span
+				>
 			</div>
 		</div>
 		<div class="flex w-full h-full">
@@ -28,7 +31,12 @@
 					<div
 						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
-						<span class="text-white text-4xl font-semibold">Lorem</span>
+						<span class="text-white text-5xl font-semibold">Lorem</span>
+						<span
+							class="text-white text-6xl font-semibold blinking text-red-400"
+						>
+							_</span
+						>
 					</div>
 				</div>
 				<!-- Second Image -->
@@ -44,7 +52,13 @@
 					<div
 						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
-						<span class="text-white text-4xl font-semibold">Lorem</span>
+						<span class="text-white text-5xl font-semibold">Lorem</span>
+
+						<span
+							class="text-white text-6xl font-semibold blinking text-red-400"
+						>
+							_</span
+						>
 					</div>
 				</div>
 				<!-- Third Image -->
@@ -60,7 +74,12 @@
 					<div
 						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
-						<span class="text-white text-4xl font-semibold">Lorem</span>
+						<span class="text-white text-5xl font-semibold">Lorem</span>
+						<span
+							class="text-white text-6xl font-semibold blinking text-red-400"
+						>
+							_</span
+						>
 					</div>
 				</div>
 				<!-- Fourth Image -->
@@ -76,7 +95,12 @@
 					<div
 						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
-						<span class="text-white text-4xl font-semibold">Lorem</span>
+						<span class="text-white text-5xl font-semibold">Lorem</span>
+						<span
+							class="text-white text-6xl font-semibold blinking text-red-400"
+						>
+							_</span
+						>
 					</div>
 				</div>
 			</div>
@@ -92,5 +116,20 @@ export default {};
 .h-full {
 	height: 100%;
 	width: 100%;
+}
+.blinking {
+	animation: blink-animation 2s infinite;
+}
+
+@keyframes blink-animation {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
 }
 </style>
