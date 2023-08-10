@@ -1,0 +1,1 @@
+import e from"./MainLayout.1f7ab152.js";import{l as t,q as o,k as r}from"./entry.a5e1a415.js";import"./Icon.fea4f1cd.js";import"./config.52615968.js";const a={class:""},l={__name:"index",setup(s){return(c,n)=>(r(),t("div",a,[o(e)]))}};export{l as default};
