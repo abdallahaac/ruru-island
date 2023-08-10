@@ -10,7 +10,7 @@
 			<div
 				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
-				<span class="text-white text-5xl font-semibold">Lorem</span>
+				<span class="text-white text-5xl font-semibold text-bg">Lorem</span>
 				<span class="text-white text-6xl font-semibold blinking text-red-400">
 					_</span
 				>
@@ -119,6 +119,7 @@ export default {};
 }
 .blinking {
 	animation: blink-animation 2s infinite;
+	color: #f87171;
 }
 
 @keyframes blink-animation {
