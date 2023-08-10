@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="lg:absolute bg-white max-h-20 lg:h-20 flex flex-row text-align item-align justify-between w-full p-5 px-14"
+		class="lg:absolute sticky bg-white max-h-20 lg:h-20 flex flex-row text-align item-align justify-between w-full p-5 px-12 nav"
 	>
 		<div
 			class="z-10 text-black inline-block cursor-pointer font-semibold tracking-widest lg:text-white text-lg"
@@ -17,4 +17,11 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media (max-width: 1024px) {
+	.nav {
+		position: fixed;
+		z-index: 20;
+	}
+}
+</style>
