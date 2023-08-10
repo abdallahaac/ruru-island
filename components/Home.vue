@@ -5,50 +5,79 @@
 				src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img1.jpg"
 				alt=""
 				srcset=""
-				class="absolute inset-0 w-full h-full object-cover z-0"
+				class="inset-0 w-full h-full object-cover z-0 transition duration-300"
 			/>
+			<div
+				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+			>
+				<span class="text-white text-4xl font-semibold">Lorem</span>
+			</div>
 		</div>
 		<div class="flex w-full h-full">
-			<div class="grid h-full grid-cols-2">
+			<div class="grid grid-cols-2 h-full">
+				<!-- First Image -->
 				<div
-					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full"
+					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full relative"
 				>
 					<img
 						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img2-550x550.jpg"
 						alt=""
 						srcset=""
-						class="inset-0 object-cover h-full z-0"
+						class="inset-0 object-cover h-full z-0 transition duration-300"
 					/>
+					<div
+						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+					>
+						<span class="text-white text-4xl font-semibold">Lorem</span>
+					</div>
 				</div>
+				<!-- Second Image -->
 				<div
-					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full"
+					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full relative"
 				>
 					<img
 						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img3-550x550.jpg"
 						alt=""
 						srcset=""
-						class="inset-0 object-cover h-full z-0"
+						class="inset-0 object-cover h-full z-0 transition duration-300"
 					/>
+					<div
+						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+					>
+						<span class="text-white text-4xl font-semibold">Lorem</span>
+					</div>
 				</div>
+				<!-- Third Image -->
 				<div
-					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full"
+					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full relative"
 				>
 					<img
 						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img4-550x550.jpg"
 						alt=""
 						srcset=""
-						class="inset-0 object-cover h-full z-0"
+						class="inset-0 object-cover h-full z-0 transition duration-300"
 					/>
+					<div
+						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+					>
+						<span class="text-white text-4xl font-semibold">Lorem</span>
+					</div>
 				</div>
+				<!-- Fourth Image -->
 				<div
-					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full"
+					class="flex bg-red-500 items-center justify-center text-align font-light tracking-widest text-2xl h-full relative"
 				>
 					<img
 						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img5-550x550.jpg"
 						alt=""
 						srcset=""
-						class="inset-0 object-cover h-full z-0"
+						class="inset-0 object-cover h-full z-0 transition duration-300"
 					/>
+					<div
+						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+					>
+						<span class="text-white text-4xl font-semibold">Lorem</span>
+					</div>
 				</div>
 			</div>
 		</div>
