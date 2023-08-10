@@ -1,16 +1,27 @@
 <template>
 	<div
-		class="bg-transparent h-[100px] flex flex-row text-align justify-between p-10 w-full absolute"
+		class="lg:absolute sticky bg-white max-h-20 lg:h-20 flex flex-row text-align item-align justify-between w-full p-5 px-12 nav"
 	>
 		<div
-			class="z-10 inline-block cursor-pointer font-semibold tracking-widest text-white text-lg"
+			class="z-10 text-black inline-block cursor-pointer font-semibold tracking-widest lg:text-white text-lg"
 		>
 			RURU ISLAND
 		</div>
-		<div class="inline-block cursor-pointer z-10 text-white">
-			<Icon name="radix-icons:hamburger-menu" size="33" />
+		<div class="z-10 inline-block cursor-pointer text-black lg:text-white">
+			<Icon name="radix-icons:hamburger-menu" size="28" />
 		</div>
 	</div>
 </template>
 
-<script setup></script>
+<script>
+export default {};
+</script>
+
+<style lang="scss" scoped>
+@media (max-width: 1024px) {
+	.nav {
+		position: fixed;
+		z-index: 20;
+	}
+}
+</style>

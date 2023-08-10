@@ -1,7 +1,8 @@
 <template>
 	<div class="">
 		<Header />
-		<Home />
+		<HomeDesktop />
+		<HomeMobile />
 	</div>
 </template>
 
