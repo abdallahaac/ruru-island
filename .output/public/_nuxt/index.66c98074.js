@@ -1,0 +1,1 @@
+import o from"./MainLayout.4972d239.js";import{c as t,b as e,o as r}from"./entry.417b138e.js";import"./Header.0f3fb7a7.js";import"./nuxt-link.1f24445a.js";import"./Icon.f7759a82.js";import"./config.39644928.js";const a={class:""},u={__name:"index",setup(c){return(s,i)=>(r(),t("div",a,[e(o)]))}};export{u as default};
