@@ -1,13 +1,15 @@
 <template>
 	<div
-		class="lg:absolute sticky bg-white max-h-20 lg:h-20 flex flex-row text-align item-align justify-between w-full p-5 px-12 nav"
+		class="lg:absolute sticky bg-white max-h-20 lg:h-20 flex flex-row text-align item-align justify-between w-full p-5 px-12 nav shadow-sm"
 	>
 		<div
 			class="z-10 text-black inline-block cursor-pointer font-semibold tracking-widest lg:text-white text-lg"
 		>
-			RURU ISLAND
+			<NuxtLink to="/">RURU ISLAND</NuxtLink>
 		</div>
-		<div class="z-10 inline-block cursor-pointer text-black lg:text-white">
+		<div
+			class="z-10 inline-block cursor-pointer text-black lg:text-white burger"
+		>
 			<Icon name="radix-icons:hamburger-menu" size="28" />
 		</div>
 	</div>

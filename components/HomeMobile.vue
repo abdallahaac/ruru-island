@@ -14,7 +14,7 @@
 				class="w-full h-full object-cover"
 			/>
 			<div
-				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
 				<span class="text-white text-5xl font-semibold">Lorem</span>
 				<span class="text-white text-6xl font-semibold blinking text-red-400"
@@ -30,7 +30,7 @@
 				class="w-full h-full object-cover"
 			/>
 			<div
-				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
 				<span class="text-white text-5xl font-semibold">Lorem</span>
 				<span class="text-white text-6xl font-semibold blinking text-red-400"
@@ -47,7 +47,7 @@
 				class="w-full h-full object-cover"
 			/>
 			<div
-				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
 				<span class="text-white text-5xl font-semibold">Lorem</span>
 				<span class="text-white text-6xl font-semibold blinking text-red-400"
@@ -63,7 +63,7 @@
 				class="w-full h-full object-cover"
 			/>
 			<div
-				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
 				<span class="text-white text-5xl font-semibold">Lorem</span>
 				<span class="text-white text-6xl font-semibold blinking text-red-400"
@@ -79,7 +79,7 @@
 				class="w-full h-full object-cover"
 			/>
 			<div
-				class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 			>
 				<span class="text-white text-5xl font-semibold">Lorem</span>
 				<span class="text-white text-6xl font-semibold blinking text-red-400"
@@ -102,6 +102,9 @@ export default {};
 		display: flex;
 		justify-content: center; /* Center horizontally */
 		align-items: center; /* Center vertically */
+	}
+	.card-c {
+		background-color: rgb(37, 37, 37);
 	}
 
 	.card {
