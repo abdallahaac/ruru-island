@@ -6,23 +6,23 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 </script>
 
 <template>
-	<div class="text-black"></div>
-	<Header />
-
+	<div class="text-black">
+		<Header />
+	</div>
 	<main>
 		<header class="bg-white flex items-align justify-center">
 			<div class="content-container">
 				<div class="content">
-					<p>
-						<!-- {{ data.body.children[0].children[0].props.src }} -->
-						<img
-							class="shadow-sm"
-							:src="data.body.children[0].children[0].props.src"
-							alt=""
-						/>
-					</p>
-					<h1>{{ data.title }}</h1>
-					<p>{{ data.body.children[2].children[0].value }}</p>
+					<img
+						class="banner-image shadow-sm"
+						:src="data.body.children[0].children[0].props.src"
+						alt=""
+					/>
+
+					<div class="content-info bg-red-300">
+						<h1>{{ data.title }}</h1>
+						<p>{{ data.body.children[2].children[0].value }}</p>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -31,9 +31,11 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 
 <style scoped>
 /* Styles for the image */
-.image {
-	max-width: 100%;
-	height: auto;
+.banner-image {
+	width: 100%; /* Make the image fill the entire width */
+	max-height: 500px; /* Adjust the height as needed */
+	object-fit: cover; /* Maintain aspect ratio and cover container */
+	margin-top: 100px;
 }
 
 /* Styles for the content container */

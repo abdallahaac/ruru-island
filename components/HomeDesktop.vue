@@ -31,15 +31,17 @@
 						srcset=""
 						class="cards inset-0 w-full h-full object-cover transition duration-300"
 					/>
-					<div
-						class="card-c absolute inset-0 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
-					>
-						<span class="text-white text-5xl font-semibold">Lorem</span>
-						<span
-							class="text-white text-6xl font-semibold blinking text-red-400"
-							>_</span
+					<NuxtLink to="/posts/lore" class="card-link">
+						<div
+							class="card-c absolute inset-0 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 						>
-					</div>
+							<span class="text-white text-5xl font-semibold">Prisoner</span>
+							<span
+								class="text-white text-6xl font-semibold blinking text-red-400"
+								>_</span
+							>
+						</div>
+					</NuxtLink>
 				</div>
 				<!-- Second Image -->
 				<div class="flex bg-red-500 relative h-full overflow-hidden">
