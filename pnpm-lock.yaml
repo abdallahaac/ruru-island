@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@formkit/auto-animate': ^0.7.0
   '@nuxt/content': ^2.7.2
   '@nuxt/devtools': latest
   '@nuxtjs/color-mode': ^3.3.0
@@ -23,6 +24,7 @@ specifiers:
   tailwindcss: ^3.3.3
 
 dependencies:
+  '@formkit/auto-animate': 0.7.0
   '@nuxtjs/supabase': 1.0.2
   '@pinia-plugin-persistedstate/nuxt': 1.1.1_swsfcm5bnstvojwjjrkzgmdvhq
   '@pinia/nuxt': 0.4.11
@@ -773,6 +775,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@formkit/auto-animate/0.7.0:
+    resolution: {integrity: sha512-RczHUr0AhRPssREoNdRjLfk2b/id9/DFnbIq18QM8L7E4zNV3XH+WO480EZ46BQHDEsv76YPJ0JbG2Y2i3GfXw==}
+    dev: false
 
   /@hapi/hoek/9.3.0:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}

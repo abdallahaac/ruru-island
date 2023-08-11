@@ -8,7 +8,7 @@
 			style="margin-top: 60px"
 		>
 			<img
-				src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img1.jpg"
+				src="../assets/skull_dance.png"
 				alt=""
 				srcset=""
 				class="w-full h-full object-cover"
@@ -22,9 +22,13 @@
 				>
 			</div>
 		</div>
-		<div class="card relative bg-red-300 h-full w-screen">
+		<div
+			class="card relative bg-white h-full w-screen"
+			id="bird"
+			style="height: 400px"
+		>
 			<img
-				src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img2.jpg"
+				src="https://i.ibb.co/61F4QSX/bird.png"
 				alt=""
 				srcset=""
 				class="w-full h-full object-cover"
@@ -41,7 +45,7 @@
 
 		<div class="card relative bg-red-300 h-full w-screen">
 			<img
-				src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img3.jpg"
+				src="../assets/The_beast.png"
 				alt=""
 				srcset=""
 				class="w-full h-full object-cover"
@@ -57,7 +61,7 @@
 		</div>
 		<div class="card relative bg-red-300 h-full w-screen">
 			<img
-				src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img4.jpg"
+				src="../assets/the-wanderers.png"
 				alt=""
 				srcset=""
 				class="w-full h-full object-cover"
@@ -73,7 +77,7 @@
 		</div>
 		<div class="card relative bg-red-300 h-full w-screen">
 			<img
-				src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img5.jpg"
+				src="../assets/tree.jpg"
 				alt=""
 				srcset=""
 				class="w-full h-full object-cover"
