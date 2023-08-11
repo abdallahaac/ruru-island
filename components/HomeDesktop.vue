@@ -6,13 +6,13 @@
 		>
 			<div class="relative flex w-full lg:w-1/2 lg:h-full overflow-hidden">
 				<img
-					src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img1.jpg"
+					src="../assets/skull_dance.png"
 					alt=""
 					srcset=""
 					class="cards inset-0 w-full h-full object-cover transition duration-300 lg:h-screen"
 				/>
 				<div
-					class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+					class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 				>
 					<span class="text-white text-5xl font-semibold">Lorem</span>
 					<span class="text-white text-6xl font-semibold blinking text-red-400"
@@ -23,16 +23,16 @@
 			<div class="grid lg:grid-cols-2 h-full gap-0">
 				<!-- First Image -->
 				<div
-					class="flex bg-red-500 relative h-full overflow-hidden lg:h-screen"
+					class="flex bg-white z-10 relative h-full overflow-hidden lg:h-screen"
 				>
 					<img
-						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img2-550x550.jpg"
+						src="https://aclaceycom.files.wordpress.com/2022/06/f750b-bird2.png"
 						alt=""
 						srcset=""
 						class="cards inset-0 w-full h-full object-cover transition duration-300"
 					/>
 					<div
-						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+						class="card-c absolute inset-0 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
 						<span class="text-white text-5xl font-semibold">Lorem</span>
 						<span
@@ -44,13 +44,14 @@
 				<!-- Second Image -->
 				<div class="flex bg-red-500 relative h-full overflow-hidden">
 					<img
-						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img3-550x550.jpg"
+						src="../assets/The_beast.png"
 						alt=""
 						srcset=""
-						class="cards inset-0 w-full h-full object-cover transition duration-300"
+						style="background-color: rgb(37, 37, 37)"
+						class="cards inset-0 w-full h-full object-cover transition duration-300 object-contain"
 					/>
 					<div
-						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+						class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
 						<span class="text-white text-5xl font-semibold">Lorem</span>
 						<span
@@ -68,7 +69,7 @@
 						class="cards inset-0 w-full h-full object-cover transition duration-300"
 					/>
 					<div
-						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+						class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
 						<span class="text-white text-5xl font-semibold">Lorem</span>
 						<span
@@ -80,13 +81,13 @@
 				<!-- Fourth Image -->
 				<div class="flex bg-red-500 relative h-full overflow-hidden">
 					<img
-						src="https://haar.qodeinteractive.com/wp-content/uploads/2018/02/home6-img5-550x550.jpg"
+						src="../assets/tree.jpg"
 						alt=""
 						srcset=""
 						class="cards inset-0 w-full h-full object-cover transition duration-300"
 					/>
 					<div
-						class="absolute inset-0 bg-zinc-800 opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
+						class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 					>
 						<span class="text-white text-5xl font-semibold">Lorem</span>
 						<span
@@ -112,6 +113,9 @@ export default {};
 .blinking {
 	animation: blink-animation 2s infinite;
 	color: #f87171;
+}
+.card-c {
+	background-color: rgb(37, 37, 37);
 }
 @media (max-width: 1024px) {
 	.cards {
