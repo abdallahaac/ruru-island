@@ -15,11 +15,6 @@ export default defineNuxtConfig({
 		public: {
 			stripePk: process.env.STRIPE_PK_KEY,
 		},
-		build: {
-			rollupOptions: {
-				external: ["vue"], // Add 'vue' to the list of external modules
-			},
-		},
 	},
 	app: {
 		head: {
