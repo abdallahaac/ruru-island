@@ -26,7 +26,7 @@
 			<div class="grid lg:grid-cols-2 h-full gap-0">
 				<!-- First Image -->
 				<div
-					class="flex bg-white z-10 relative h-full overflow-hidden lg:h-screen"
+					class="flex bg-white z-1 relative h-full overflow-hidden lg:h-screen"
 				>
 					<img
 						src="https://i.ibb.co/61F4QSX/bird.png"
