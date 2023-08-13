@@ -2,7 +2,6 @@
 	<!-- desktop view -->
 	<div class="desktop">
 		<div
-			v-auto-animate
 			class="flex flex-col lg:flex-row w-screen h-screen justify-center items-center"
 		>
 			<div class="relative flex w-full lg:w-1/2 lg:h-full overflow-hidden">
@@ -110,9 +109,7 @@
 	</div>
 </template>
 
-<script scoped>
-import { autoAnimatePlugin } from "@formkit/auto-animate/vue";
-</script>
+<script scoped></script>
 
 <style lang="scss" scoped>
 .h-full {
