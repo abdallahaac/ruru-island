@@ -6,8 +6,8 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 </script>
 
 <template>
-	<div class="text-black">
-		<Header />
+	<div class="text-black flex w-full justify-end">
+		<Header></Header>
 	</div>
 	<main>
 		<header class="bg-white flex items-align justify-center">
@@ -66,7 +66,6 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 .nav :deep(div) {
 	color: black;
 	display: flex;
-	justify-content: space-between;
 }
 .nav {
 	position: fixed;

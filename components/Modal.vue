@@ -2,14 +2,21 @@
 	<transition name="modal-fade" mode="out-in">
 		<div
 			v-if="isOpen"
-			class="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50"
+			class="fixed top-0 left-0 w-full h-full flex-col justify-center items-center bg-black bg-opacity-50"
 			@click="closeModal"
 		>
-			<div class="bg-white p-5 rounded-lg shadow-lg w-full h-full">
-				<div class="flex items-center justify-end">
-					<p @click="closeModal">This is the modal content. Click to close.</p>
+			<div class="bg-white p-5 shadow-lg w-full h-full flex flex-col">
+				<div class="flex justify-end w-full">
+					<Icon
+						@click="closeModal"
+						name="radix-icons:eye-closed"
+						size="40"
+						id="icon"
+						class="flex"
+					/>
 				</div>
-				<div class="w-full h-full justify-center flex">hi</div>
+				<div class="">test</div>
+
 				<!-- Additional modal content goes here -->
 			</div>
 		</div>
@@ -30,6 +37,14 @@ export default {
 </script>
 
 <style lang="scss">
+#icon {
+	color: #cf2e2e;
+	margin-right: 26px;
+	padding: 5px;
+	cursor: pointer;
+	display: flex;
+}
+
 /* Modal transition animation */
 .modal-fade-enter-active,
 .modal-fade-leave-active {

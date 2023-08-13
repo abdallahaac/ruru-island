@@ -12,7 +12,7 @@
 			class="z-20 inline-block cursor-pointer text-black lg:text-white burger"
 			@click="toggleModal"
 		>
-			<Icon name="radix-icons:hamburger-menu" size="28" />
+			<Icon name="radix-icons:eye-open" size="37" id="eye-open" />
 		</div>
 
 		<!-- Modal component -->
@@ -48,6 +48,9 @@ export default {
 	.nav {
 		position: fixed;
 		z-index: 20;
+	}
+	.eye-open {
+		padding: 5px;
 	}
 }
 </style>
