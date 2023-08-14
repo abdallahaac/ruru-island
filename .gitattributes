@@ -2,3 +2,21 @@
 *.js text eol=lf
 *.md text eol=lf
 # Add other file types here
+# Set default behavior for text files
+* text=auto
+
+# Set specific behavior for certain file types
+
+# Treat .html files as text (normalize line endings)
+*.html text
+
+# Treat .json files as text (normalize line endings)
+*.json text
+
+# Exclude specific files from line ending normalization
+
+# Exclude nitro.json from line ending normalization
+.output/nitro.json -text
+
+# Exclude .html files in the .output/public directory from line ending normalization
+.output/public/*.html -text
