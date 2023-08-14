@@ -7,23 +7,50 @@
 		>
 			<NuxtLink to="/">RURU ISLAND</NuxtLink>
 		</div>
+
 		<div
-			class="z-10 inline-block cursor-pointer text-black lg:text-white burger"
+			class="z-20 inline-block cursor-pointer text-black lg:text-white burger"
+			@click="toggleModal"
 		>
-			<Icon name="radix-icons:hamburger-menu" size="28" />
+			<Icon name="radix-icons:eye-open" size="37" id="eye-open" />
 		</div>
+
+		<!-- Modal component -->
+		<Modal :isOpen="modalOpen" @close="closeModal" class="z-20" />
 	</div>
 </template>
-
 <script>
-export default {};
+import Modal from "@/components/Modal.vue"; // Adjust the path based on your project structure
+
+export default {
+	components: {
+		Modal,
+	},
+	data() {
+		return {
+			modalOpen: false,
+		};
+	},
+	methods: {
+		toggleModal() {
+			this.modalOpen = !this.modalOpen;
+		},
+		closeModal() {
+			this.modalOpen = false;
+		},
+	},
+};
 </script>
 
 <style lang="scss" scoped>
+/* Add your existing styles */
 @media (max-width: 1024px) {
 	.nav {
 		position: fixed;
 		z-index: 20;
+	}
+	.eye-open {
+		padding: 5px;
 	}
 }
 </style>

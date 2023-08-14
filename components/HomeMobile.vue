@@ -13,14 +13,17 @@
 				srcset=""
 				class="w-full h-full object-cover"
 			/>
-			<div
-				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
-			>
-				<span class="text-white text-5xl font-semibold">Lorem</span>
-				<span class="text-white text-6xl font-semibold blinking text-red-400"
-					>_</span
+
+			<NuxtLink to="/posts/the-prisoner" class="card-link">
+				<div
+					class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 				>
-			</div>
+					<span class="text-white text-5xl font-semibold">Lorem</span>
+					<span class="text-white text-6xl font-semibold blinking text-red-400"
+						>_</span
+					>
+				</div>
+			</NuxtLink>
 		</div>
 		<div
 			class="card relative bg-white h-full w-screen"
@@ -33,14 +36,16 @@
 				srcset=""
 				class="w-full h-full object-cover"
 			/>
-			<div
-				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
-			>
-				<span class="text-white text-5xl font-semibold">Lorem</span>
-				<span class="text-white text-6xl font-semibold blinking text-red-400"
-					>_</span
+			<NuxtLink to="/posts/the-prisoner" class="card-link">
+				<div
+					class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 				>
-			</div>
+					<span class="text-white text-5xl font-semibold">Lorem</span>
+					<span class="text-white text-6xl font-semibold blinking text-red-400"
+						>_</span
+					>
+				</div>
+			</NuxtLink>
 		</div>
 
 		<div class="card relative bg-red-300 h-full w-screen">
@@ -50,14 +55,16 @@
 				srcset=""
 				class="w-full h-full object-cover"
 			/>
-			<div
-				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
-			>
-				<span class="text-white text-5xl font-semibold">Lorem</span>
-				<span class="text-white text-6xl font-semibold blinking text-red-400"
-					>_</span
+			<NuxtLink to="/posts/the-prisoner" class="card-link">
+				<div
+					class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 				>
-			</div>
+					<span class="text-white text-5xl font-semibold">Lorem</span>
+					<span class="text-white text-6xl font-semibold blinking text-red-400"
+						>_</span
+					>
+				</div>
+			</NuxtLink>
 		</div>
 		<div class="card relative bg-red-300 h-full w-screen">
 			<img
@@ -66,14 +73,16 @@
 				srcset=""
 				class="w-full h-full object-cover"
 			/>
-			<div
-				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
-			>
-				<span class="text-white text-5xl font-semibold">Lorem</span>
-				<span class="text-white text-6xl font-semibold blinking text-red-400"
-					>_</span
+			<NuxtLink to="/posts/the-prisoner" class="card-link">
+				<div
+					class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 				>
-			</div>
+					<span class="text-white text-5xl font-semibold">Lorem</span>
+					<span class="text-white text-6xl font-semibold blinking text-red-400"
+						>_</span
+					>
+				</div>
+			</NuxtLink>
 		</div>
 		<div class="card relative bg-red-300 h-full w-screen">
 			<img
@@ -82,14 +91,16 @@
 				srcset=""
 				class="w-full h-full object-cover"
 			/>
-			<div
-				class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
-			>
-				<span class="text-white text-5xl font-semibold">Lorem</span>
-				<span class="text-white text-6xl font-semibold blinking text-red-400"
-					>_</span
+			<NuxtLink to="/posts/the-prisoner" class="card-link">
+				<div
+					class="absolute inset-0 card-c opacity-0 transition duration-300 hover:opacity-100 flex items-center justify-center"
 				>
-			</div>
+					<span class="text-white text-5xl font-semibold">Lorem</span>
+					<span class="text-white text-6xl font-semibold blinking text-red-400"
+						>_</span
+					>
+				</div>
+			</NuxtLink>
 		</div>
 
 		<!-- Other card divs -->
